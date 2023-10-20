@@ -24,5 +24,10 @@ namespace _1020_localization_2
         {
             InitializeComponent();
         }
+
+        private void btnChangeLanguage_Click()
+        {
+
+        }
     }
 }

@@ -3,32 +3,25 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net7.0-windows</TargetFramework>
-    <RootNamespace>_1020_localization_2</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="LangEN.Designer.cs">
+    <Compile Update="lang.Designer.cs">
+      <DependentUpon>lang.resx</DependentUpon>
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>LangEN.resx</DependentUpon>
-    </Compile>
-    <Compile Update="LangUA.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>LangUA.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="LangEN.resx">
+    <EmbeddedResource Update="lang.resx">
+      <LastGenOutput>lang.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>LangEN.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Update="LangUA.resx">
+    <EmbeddedResource Update="lang.uk.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>LangUA.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 
