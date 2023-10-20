@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="winTitle">User</v:String>
+    <v:String x:Key="btnChangeLanguage">Change Language</v:String>
+    <v:String x:Key="btnOK">OK</v:String>
+    <v:String x:Key="btnCancel">Cancel</v:String>
+    <v:String x:Key="labelName">Name</v:String>
+    <v:String x:Key="labelSurname">Surname</v:String>
+    <v:String x:Key="labelPhone">Phone</v:String>
+</ResourceDictionary>

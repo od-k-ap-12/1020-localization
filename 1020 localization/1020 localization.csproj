@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Page Remove="DictionaryUA.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\DictionaryUA.xaml" />
+  </ItemGroup>
+
 </Project>
